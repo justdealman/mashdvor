@@ -1,0 +1,239 @@
+﻿/* Fonts */
+
+@font-face {
+    font-family:'PT Sans';
+    src:url('../fonts/ptsans.eot');
+    src:url('../fonts/ptsans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ptsans.woff') format('woff'),
+        url('../fonts/ptsans.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:'PT Sans';
+    src:url('../fonts/ptsansb.eot');
+    src:url('../fonts/ptsansb.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ptsansb.woff') format('woff'),
+        url('../fonts/ptsansb.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+}
+
+/* Default */
+
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	color:#000000;
+	font-size:12px;
+	line-height:16px;
+    font-family:'PT Sans', sans-serif;
+	padding:0;
+	margin:0;
+	background:#ffffff;
+}
+p {
+	text-indent:0;
+	padding:0;
+	margin:0 0 16px;
+}
+table {
+	margin:0 0 16px;
+	border-collapse:collapse;
+}
+table td {
+	padding:0;
+}
+:focus {
+	outline:none;
+}
+img {
+	padding:0;
+	margin:0;
+	border:0;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+form {
+	margin:0;
+}
+ul {
+	margin:0 0 10px 16px;
+	padding:0;
+}
+ul li {
+	padding:0;
+	list-style:none;
+}
+ol {
+	margin:0 0 10px 18px;
+	padding:0;
+}
+* +html ol {
+	padding:0 0 0 5px;
+}
+ol li {
+	padding:0 0 0 16px;
+}
+input, select, textarea {
+	color:#000000;
+	font-size:12px;
+    font-family:'PT Sans', sans-serif;
+	padding:0;
+	margin:0;
+	background:none;
+	border:0;
+	-moz-box-shadow:border-box;
+	-webkit-box-shadow:border-box;
+	box-sizing:border-box;
+}
+textarea {
+	overflow:auto;
+}
+button {
+    font-family:'PT Sans', sans-serif;
+	margin:0;
+	border:0;
+	-moz-box-shadow:border-box;
+	-webkit-box-shadow:border-box;
+	box-sizing:border-box;
+}
+button::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+::-webkit-input-placeholder {
+	color:#7a7a7a;
+}
+:-moz-placeholder {
+	color:#7a7a7a;
+}
+::-moz-placeholder {
+	color:#7a7a7a;
+}
+:-ms-input-placeholder {
+	color:#7a7a7a;
+}
+
+/* Start page */
+
+.introduction {
+	height:100%;
+	min-height:600px;
+	background:url('../img/introduction_bg.jpg') no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.introduction > div {
+	position:relative;
+	width:960px;
+	height:100%;
+	margin:0 auto;
+	background:url('../img/introduction_before.png') repeat-y center;
+}
+.introduction .logo {
+	position:absolute;
+	left:50%;
+	top:4.3%;
+	margin-left:-223px;
+}
+.introduction ul {
+	position:absolute;
+	left:0;
+	top:26.8%;
+	width:955px;
+	height:255px;
+	text-align:center;
+	margin:0;
+	background:url('../img/introduction_ul.png') no-repeat center top;
+}
+.introduction ul li {
+	display:inline-block;
+	width:382px;
+	text-align:left;
+	vertical-align:top;
+	padding:19px 0 0;
+	margin:0 0 0 103px;
+}
+.introduction ul li:first-child {
+	text-align:right;
+	margin-left:6px;
+}
+.introduction ul li a {
+	display:block;
+	height:100px;
+	padding:39px 20px 23px;
+}
+.introduction ul li h2 {
+	color:#ffffff;
+	font-size:77px;
+	line-height:77px;
+	padding:0;
+	margin:0;
+}
+.introduction ul li a:hover h2 {
+	text-shadow:0 0 25px rgba(255,255,255,0.5);
+}
+.introduction ul li h2 span {
+	display:block;
+	font-size:27px;
+	line-height:30px;
+	margin:0 0 -10px -1px;
+}
+.introduction ul li p {
+	color:#010000;
+	font-size:12px;
+	line-height:15px;
+	margin:-5px 0 0 -1px;
+}
+
+.introduction > div > div {
+	position:absolute;
+	left:50%;
+	bottom:0;
+	width:255px;
+	height:321px;
+	margin-left:-128px;
+	background:url('../img/introduction_div.png') no-repeat center top;
+}
+.introduction > div > div a {
+	position:absolute;
+	left:32px;
+	top:0;
+	display:block;
+	width:192px;
+	height:275px;
+}
+.introduction > div > div h5 {
+	position:absolute;
+	left:42px;
+	top:119px;
+	width:108px;
+	color:#010000;
+	font-size:13px;
+	line-height:16px;
+	font-weight:normal;
+	text-align:center;
+	margin:0;
+}
+.introduction > div > div h3 {
+	position:absolute;
+	left:53px;
+	top:225px;
+	width:86px;
+	color:#ffffff;
+	font-size:35px;
+	line-height:40px;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
